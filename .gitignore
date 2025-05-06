@@ -1,0 +1,14 @@
+.# For Node.js frontend
+node_modules/
+dist/
+saved_uploads/
+
+# For Python backend
+__pycache__/
+*.pyc
+env/
+venv/
+
+# Others
+.DS_Store
+.env

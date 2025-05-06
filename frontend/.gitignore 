@@ -1,0 +1,12 @@
+# Node modules
+/node_modules/
+
+# Log files
+npm-debug.log*
+
+# IDE specific files
+/.idea/
+/.vscode/
+
+# Operating system files
+.DS_Store

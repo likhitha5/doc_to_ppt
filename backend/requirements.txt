@@ -1,0 +1,9 @@
+fastapi
+python-multipart
+openai
+PyMuPDF
+langchain
+uvicorn
+python-docx
+Pillow
+python-dotenv
