@@ -9,7 +9,7 @@ const Header = () => (
     <AppBar position="static" sx={{ backgroundColor: 'primary.dark' }}>
       <Toolbar>
         <Typography variant="h6" sx={{ flexGrow: 1 }}>
-          Document to Presentation Converter
+          Document to Presentation Converter - AI Powered
         </Typography>
       </Toolbar>
     </AppBar>

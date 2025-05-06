@@ -11,7 +11,7 @@ A GenAI-powered tool that takes a PDF document, extracts key content and images,
 - Generate presentation slides using Google Gemini (`gemini-pro`).
 - Built-in support for switching between AI models (Gemini, OpenAI, HuggingFace).
 - Preview slides in a clean UI (React).
-- Currently hosted at http://52.21.146.183:3000. Can be run/tested locally too (Refer below).
+- Currently hosted at http://65.0.34.91:3000. Can be run/tested locally too (Refer below).
 
 Notes: 
 Only PDF files are supported currently.
@@ -23,7 +23,7 @@ Results are based on the Gemini model's understanding of the document structure.
 
 ## 🏗️ Project Structure
 
-project_1/
+root/
  - frontend/ # React app
  - backend/ # FastAPI backend
  - README.md
@@ -31,7 +31,7 @@ project_1/
 ---
 ## How to test application - on Deployed Server
 
-Application link : http://52.21.146.183:3000
+Application link : http://65.0.34.91:3000
 Input fields:
  - Choose AI Model (Currently only gemini supported)
  - Choose Audience Type
@@ -72,7 +72,7 @@ Replace your_gemini_api_key_here with your actual Google API Key for Gemini.
 ```bash
 uvicorn main:app --reload
 ```
-This will start the FastAPI server at: http://127.0.0.1:8000
+This will start the FastAPI server at: http://localhost:8000
 
 ## Frontend Setup (React)
 ```bash
